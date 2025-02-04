@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: #634545;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.heading {
+    margin: 3rem;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
+    /* height: 10vw; */
+    max-width: 400px;
+    max-height: 200px;
+}
+
+.clock div {
+    border: 2px solid #000;
+    height: 6rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Makes the clock circular */
+    font-size: 2rem;
+    color: #fff;
+    background-color: #444;
+    transition: background-color 0.5s ease-in-out; /* Smooth color transition */
+}
+
+.clock div:hover {
+    background-color: #322929; /* Change color on hover */
+}
+.digital-clock {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 10px;
+}
+footer {
+    margin-top: 3rem; /* Space before the footer */
+    text-align: center;
+    font-size: 1.2rem; /* Font size for footer text */
+    color: white;
+    padding: 1rem;
+    background-color: #333; /* Footer background color */
+}
